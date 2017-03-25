@@ -1,0 +1,103 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+
+
+<title>Dating website</title>
+<meta name="author" content="Sada Shiv Pal">
+<style>
+
+fieldset{background:lightyellow}
+fieldset{border:10px solid yellow}
+fieldset{width:720px}
+fieldset{margin-bottom:10px}
+label{width:180px}
+label{display:inline-block}
+label{right-align:top-align}
+.height{text-align:center}
+.salary{text-align:center}
+label:hover{font-size:40px}
+textarea{width:360px:height:50px}
+</style>
+
+</head>
+
+<body>
+
+<h1> Please Enter Your Deatails For Our Dating Website!</h1>
+<form>
+<fieldset>
+<legend>your face</legend>
+
+Your Image:
+<input type="file" name="fileToUpload"><br>
+Image preview;
+id="preview"
+</fieldset>
+<br><br>
+</form>
+
+<form>
+<fieldset>
+<legend>Your General Details</legend>
+ Name. 
+<input type="text" name="feedback"> <br> <br>
+Gender.
+<input type="radio" name="iq" value="male">Male 
+<input type="radio" name="iq" value="female" checked>Female <br>
+<br>
+<label for="age">Age:</label>
+<input type="text" name="age" required>
+<br>
+<label for="birthday">Your birthday:</label>
+<input type="date" name="birthday"><br>
+<label for="color"> Favorite color:</label>
+<input type="color" name="color"> <br>
+<p>Which country </p>
+<select name="cities">
+<option value="Ns">No selection</option>
+<option value="Hk">Hong Kong</option>
+<option value="Vc">Vancouver</option>
+<option value="Sf">San Francisco</option>
+<option value="In">India</option>
+<option value="JP">Japan</option>
+</select>
+</fieldset>
+</form>
+<form>
+<fieldset>
+<legend>Your Indicators</legend>
+
+<label class="height" for="Height">Height:</label>
+Short <input type="range" min="0" max="100" step="5" value="50" name="Height"> Tall<br>
+
+<label class="salary" for="Salary">Salary:</label>
+Poor <input type="range" min="0" max="100" step="5" value="50" name="Height"> Rich<br>
+
+</fieldset>
+</form>
+<form>
+<fieldset>
+<legend>Your Contact Information</legend>
+Email. 
+<input type="email" name="Email"> <br> <br>
+Mobile. 
+<input type="tel" name="Mobile"> <br> <br>
+Address.
+<textarea rows="2" cols="30" name="your Address" >
+</textarea><br><br> 
+Method to contact you.
+<input type="radio" name="iq" value="Email">Email
+<input type="radio" name="iq" value="Whatsapp" checked>Whatsapp 
+<input type="radio" name="iq" value="In-app chat" checked>In-app chat <br>
+</fieldset>
+
+</form>
+
+
+
+</body>
+
+
+</html>
